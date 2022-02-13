@@ -57,6 +57,9 @@ If you want to create real estate NFT-s for example, they are asset referenced t
 
 For that to work, there are a few things needed:
 
-The deployer needs to have a legal proof of ownership of the assets.
+1. The deployer needs to have a legal document proof of ownership of the assets.
 
-He doesn't need to publish the proof for everybody to see, if it contains sensitive information, all he needs to do is include a public contact address (email) where he can be contacted and put it in the ricardian contract.
+2. The proof doesn't need to be published, just include contact info in the ricardian contract
+
+3. You need to write down the rights you want to give to the holders who purchase the NFTs.
+   Can they visit the house or just own it etc..
