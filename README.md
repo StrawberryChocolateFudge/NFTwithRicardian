@@ -2,12 +2,12 @@
 
 This is an example to explain how to use an NFT with a Ricardian contract that is deployed from ricardian fabric.
 
-The contracts/MyCollectible.sol file shows the most simple method, without using access control.
+The **contracts/MyCollectible.sol** file shows the most simple way to create an NFT with a Ricardian, without using access control or having any custom functions..
 
-The example uses 2 dependencies, the NFT contract is created with @openzeppelin/contracts,
-the ricardian is added via @ricardianfabric/simpleterms.
+The example uses 2 dependencies, the NFT contract is created with [@openzeppelin/contracts](https://www.npmjs.com/package/@openzeppelin/contracts),
+the ricardian is added via [@ricardianfabric/simpleterms](https://www.npmjs.com/package/@ricardianfabric/simpleterms).
 
-All it takes to add a ricardian to an NFT is to inherit the simple terms.
+You can create the NFT and add the functions for the terms using inheritance.
 
         contract MyCollectible is ERC721, SimpleTerms
 
@@ -57,9 +57,11 @@ If you want to create real estate NFT-s for example, they are asset referenced t
 
 For that to work, there are a few things needed:
 
-1. The deployer needs to have a legal document proof of ownership of the assets.
+1. The deployer needs to have a proof of ownership for the assets.
 
 2. The proof doesn't need to be published, just include contact info in the ricardian contract
 
 3. You need to write down the rights you want to give to the holders who purchase the NFTs.
-   Can they visit the house or just own it etc..
+   Can they visit the house or just own part of it etc..
+
+4. A description of the asset.
