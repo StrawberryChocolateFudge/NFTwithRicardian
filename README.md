@@ -36,9 +36,6 @@ navigate to ricardianfabric.com and click on **App** to open the app.
 Documentation for the App:
 https://docs.ricardianfabric.com
 
-Permaweb link for the app:
-
-    https://arweave.net/1_Kcw38DOgUsp911JNYjbj2VfoOaeUO3lQ5gfQJ6rRI
 
 To connect the ricardian contract to the smart contract paste the address of the NFT contract to the **Smart Contract** field, add your terms and click **create**.
 
